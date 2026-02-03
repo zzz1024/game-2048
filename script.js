@@ -196,10 +196,10 @@ class GameManager {
   getVector(direction) {
     // Vectors representing tile movement
     var map = {
-      0: { x: -1, y: 0 }, // Up
-      1: { x: 0, y: 1 },  // Right
-      2: { x: 1, y: 0 },  // Down
-      3: { x: 0, y: -1 }  // Left
+      0: { x: 0, y: -1 }, // Up
+      1: { x: 1, y: 0 },  // Right
+      2: { x: 0, y: 1 },  // Down
+      3: { x: -1, y: 0 }  // Left
     };
 
     return map[direction];
